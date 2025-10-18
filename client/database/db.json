@@ -15,13 +15,6 @@
       "id": "4"
     },
     {
-      "id": "J0uGITUbYG8Q4668yM2-8",
-      "name": "Atta",
-      "price": "444",
-      "category": "Cooking",
-      "description": "Atta is good for health"
-    },
-    {
       "id": "Dl-Q6Dgk4I9vvYEBDXHVo",
       "name": "Atta",
       "price": "444",
@@ -36,11 +29,46 @@
       "description": "Atta is good for health"
     },
     {
-      "id": "tpaOk-FDsMW0xuywhwVzr",
-      "name": "",
-      "price": "",
-      "category": "",
-      "description": ""
+      "id": "p1",
+      "name": "Dell Inspiron 15",
+      "price": 85000,
+      "category": "Laptop",
+      "description": "Dell Inspiron 15 comes with an Intel i5 13th Gen processor, 8GB RAM, and 512GB SSD for high performance and productivity."
+    },
+    {
+      "id": "p2",
+      "name": "Sony WH-1000XM5",
+      "price": 45000,
+      "category": "Headphone",
+      "description": "Premium wireless noise-cancelling headphones with 30-hour battery life and superior sound quality."
+    },
+    {
+      "id": "p3",
+      "name": "Samsung 55-inch Smart TV",
+      "price": 110000,
+      "category": "Electronics",
+      "description": "4K UHD Smart TV with HDR support and built-in Alexa for a cinematic home experience."
+    },
+    {
+      "id": "p4",
+      "name": "Nike Air Max 270",
+      "price": 18000,
+      "category": "Fashion",
+      "description": "Stylish and comfortable sneakers with excellent cushioning and a sleek design."
+    },
+    {
+      "id": "p5",
+      "name": "Philips Air Fryer",
+      "price": 12000,
+      "category": "Home Appliance",
+      "description": "Enjoy oil-free cooking with the Philips Air Fryer featuring rapid air technology for crispy, healthy food."
+    },
+    {
+      "id": "p6",
+      "name": "Apple Watch Series 9",
+      "price": 65000,
+      "category": "Gadget",
+      "description": "Advanced smartwatch with health tracking, GPS, ECG, and seamless integration with iPhone."
     }
   ]
 }

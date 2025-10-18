@@ -8,10 +8,10 @@ const ProductForm = (props) => {
     const dispatch = useDispatch();
 
     const [productData, setProductData] = useState({
-        name: props.editProductData.name || '',
-        price: props.editProductData.price || '',
-        category: props.editProductData.category || '',
-        description: props.editProductData.description || ''
+        name: '',
+        price: '',
+        category: '',
+        description: ''
     })
 
 
@@ -40,10 +40,19 @@ const ProductForm = (props) => {
         if(props.isEdit){
             // Update product logic to be implemented
             dispatch(updateProduct({id:props.editProductData.id, product:productData}));
+            props.setIsEdit(false);
         }else{
             // Create product
             dispatch(createProduct({...productData, id:nanoid()}));
         }
+
+        // Clear form
+        setProductData({
+            name: '',
+            price: '',
+            category: '',
+            description: ''
+        });
     }
 
 
