@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "name": "OnePlus 12",
-      "price": 70000,
+      "name": "OnePlus 13",
+      "price": "70000",
       "category": "Phone",
       "description": "This is the latest OnePlus 11 with Snapdragon 8 Gen 2 processor, 6.7-inch Fluid AMOLED display, and Hasselblad-tuned camera system.",
       "id": "3"
@@ -15,11 +15,11 @@
       "id": "4"
     },
     {
-      "id": "Dl-Q6Dgk4I9vvYEBDXHVo",
       "name": "Atta",
-      "price": "444",
+      "price": "445",
       "category": "Cooking",
-      "description": "Atta is good for health"
+      "description": "Atta is good for health",
+      "id": "Dl-Q6Dgk4I9vvYEBDXHVo"
     },
     {
       "id": "t_qzdVR_FdlxrvYnRqtJc",
@@ -69,6 +69,20 @@
       "price": 65000,
       "category": "Gadget",
       "description": "Advanced smartwatch with health tracking, GPS, ECG, and seamless integration with iPhone."
+    },
+    {
+      "id": "VPTjU-q6tFt7_qQBYG5t8",
+      "name": "OnePlus 13",
+      "price": 70000,
+      "category": "Phone",
+      "description": "This is the latest OnePlus 11 with Snapdragon 8 Gen 2 processor, 6.7-inch Fluid AMOLED display, and Hasselblad-tuned camera system."
+    },
+    {
+      "id": "5SPrro9nQpOR-ida-ch3V",
+      "name": "OnePlus 13",
+      "price": 70000,
+      "category": "Phone",
+      "description": "This is the latest OnePlus 11 with Snapdragon 8 Gen 2 processor, 6.7-inch Fluid AMOLED display, and Hasselblad-tuned camera system."
     }
   ]
 }

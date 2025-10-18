@@ -41,6 +41,7 @@ const ProductForm = (props) => {
             // Update product logic to be implemented
             dispatch(updateProduct({id:props.editProductData.id, product:productData}));
             props.setIsEdit(false);
+            props.onHandleClearForm();
         }else{
             // Create product
             dispatch(createProduct({...productData, id:nanoid()}));

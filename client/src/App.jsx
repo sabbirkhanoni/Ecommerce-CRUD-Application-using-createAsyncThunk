@@ -7,17 +7,33 @@ import Footer from './components/Reuse/Footer'
 function App() {
 
   const [isEdit, setIsEdit] = useState(false);
-  const [editProductData, setEditProductData] = useState({});
+  const [editProductData, setEditProductData] = useState(null);
 
   const handleSetProductToEdit = (product) => {
     setIsEdit(true);
     setEditProductData(product);
   }
 
+  const handleCancelEdit = () => {
+    setIsEdit(false);
+    setEditProductData({});
+  }
+
+  const clearForm = () => {
+    setEditProductData(null);
+    setIsEdit(false);
+  }
+
   return (
     <div className=''>
       <Header/>
-      <ProductForm editProductData={editProductData} isEdit={isEdit} />
+      <ProductForm
+        editProductData={editProductData}
+        isEdit={isEdit}
+        setIsEdit={setIsEdit}
+        onHandleClearForm={clearForm}
+        onHandleCancelEdit={handleCancelEdit}
+      />
       <ProductListView
         onHandleSetEditProductData={handleSetProductToEdit}
       />
