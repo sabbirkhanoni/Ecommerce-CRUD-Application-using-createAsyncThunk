@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "name": "OnePlus 12",
+      "price": 70000,
+      "category": "Phone",
+      "description": "This is the latest OnePlus 11 with Snapdragon 8 Gen 2 processor, 6.7-inch Fluid AMOLED display, and Hasselblad-tuned camera system.",
+      "id": "3"
+    },
+    {
+      "name": "Google Pixel 8 Pro",
+      "price": "90000",
+      "category": "Phone",
+      "description": "It is the latest Google Pixel 7 Pro with Google Tensor G2 processor, 6.7-inch LTPO OLED display, and advanced camera system with computational photography.",
+      "id": "4"
+    },
+    {
+      "id": "J0uGITUbYG8Q4668yM2-8",
+      "name": "Atta",
+      "price": "444",
+      "category": "Cooking",
+      "description": "Atta is good for health"
+    },
+    {
+      "id": "Dl-Q6Dgk4I9vvYEBDXHVo",
+      "name": "Atta",
+      "price": "444",
+      "category": "Cooking",
+      "description": "Atta is good for health"
+    },
+    {
+      "id": "t_qzdVR_FdlxrvYnRqtJc",
+      "name": "Herbal Drinks",
+      "price": "200",
+      "category": "Beauty",
+      "description": "Atta is good for health"
+    },
+    {
+      "id": "tpaOk-FDsMW0xuywhwVzr",
+      "name": "",
+      "price": "",
+      "category": "",
+      "description": ""
+    }
+  ]
+}
